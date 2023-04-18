@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:session-db
+    username: mgmt
+    driverClassName: org.h2.Driver
+  jpa:
+    open-in-view: false
+    database-platform: org.hibernate.dialect.H2Dialect
